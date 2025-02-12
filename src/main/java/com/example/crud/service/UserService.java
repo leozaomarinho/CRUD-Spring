@@ -19,12 +19,12 @@ public class UserService {
     public User getUserById(Long id) {
         return userRepository.findById(id).orElseThrow(null);
     }
-    public User savUser(User user) {
+    public User saveUser(User user) {
         return userRepository.save(user);
     }
 
-    public void deleteUser(User user) {
-        userRepository.delete(user);
+    public void deleteUser(id){
+        userRepository.deleteById(id);
     }
 
 }
