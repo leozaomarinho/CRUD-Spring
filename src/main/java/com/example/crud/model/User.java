@@ -1,6 +1,5 @@
 package com.example.crud.model;
 
-import jakarta.annotation.Generated;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -16,5 +15,6 @@ public class User {
     private String username;
     private String password; //senha armazenada em texto puro, altera para armazenar em hash
 
+    private String email;
 
 }
