@@ -1,0 +1,5 @@
+/home/leozao/crud/crud-spring/src/main/java/com/example/crud/CrudApplication.java
+/home/leozao/crud/crud-spring/src/main/java/com/example/crud/controller/UserController.java
+/home/leozao/crud/crud-spring/src/main/java/com/example/crud/model/User.java
+/home/leozao/crud/crud-spring/src/main/java/com/example/crud/repository/UserRepository.java
+/home/leozao/crud/crud-spring/src/main/java/com/example/crud/service/UserService.java
